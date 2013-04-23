@@ -210,6 +210,11 @@ h3 a:hover {
   color: black;
 }
 
+#where a {
+  color: white;
+  text-decoration: underline;
+}
+
 #register li {
   font-size: 20px;
 }
@@ -233,4 +238,12 @@ h3 a:hover {
 
 .call {
   text-align: center;
+}
+
+.urgent {
+  background: #ec1a6d;
+  padding: 5px;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
