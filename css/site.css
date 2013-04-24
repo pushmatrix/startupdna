@@ -96,17 +96,6 @@ li {
   padding-bottom: 5px;
 }
 
-#myCarousel {
-  text-align: center;
-  min-height: 300px;
-}
-
-#myCarousel small {
-  color: black;
-}
-
-
-
 blockquote p:before {
   content: "\00AB";
 }
@@ -119,6 +108,19 @@ blockquote {
   border: none;
   text-align: center;
 }
+
+#myCarousel {
+  min-height: 300px;
+}
+
+#myCarousel small {
+  color: black;
+}
+
+#myCarousel blockquote {
+  text-align: left;
+}
+
 
 #bio blockquote {
   color: #777;
