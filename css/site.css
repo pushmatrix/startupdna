@@ -189,7 +189,7 @@ h3 a:hover {
   text-decoration: none;
 }
 
-#cta {
+#cta, .sponsor {
   padding: 10px 25px;
   color: white;
   background: black;
@@ -198,10 +198,19 @@ h3 a:hover {
   z-index: 1000;
 }
 
-#cta:hover {
+#cta:hover, .sponsor:hover {
   color: inherit;
   text-decoration: none;
   padding: 15px 30px;
+}
+
+.sponsor {
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+.sponsor:hover {
+  color: white;
 }
 
 .icon-xxlarge {
@@ -248,4 +257,12 @@ h3 a:hover {
   display: inline-block;
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+.prize-amount {
+  color: grey;
+  font-size: 26px;
+}
+#prize-sponsors ul {
+  padding-left: 15px;
 }
